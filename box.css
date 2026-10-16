@@ -14,17 +14,32 @@ h6 {
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
-/*
-.card * {
+
+.card {
   outline: 1px dashed red;
+  background-color: teal;
+  border-bottom-style: solid;
+  border-top-style: solid;
 }
-*/
+
 
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+  color: rgba(214, 10, 10, 0.897);
+  padding: 8px;
+  font-size: 25px;
+}
+.card h2 {
+  margin-left: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.card p{
+  color: white;
+  padding-inline: 15px;
+  margin-top: 10px;
 }
