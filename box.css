@@ -29,8 +29,14 @@ h6 {
 .card h1 {
   /* Demo style -- remove me and write your own */
   color: rgba(214, 10, 10, 0.897);
-  padding: 8px;
+  padding: 6px;
   font-size: 25px;
+  border-left-style: solid;
+  border-left-color: black;
+  margin-left: 1.5px;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 100;
+  text-align: center;
 }
 .card h2 {
   margin-left: 10px;
@@ -38,11 +44,14 @@ h6 {
   font-size: 15px;
   border-bottom-style: solid;
   border-bottom-color: black;
-  border-bottom-left-radius: 20%
+  border-bottom-left-radius: 20%;
+  padding-bottom: 5px;
+  width: 90%;
 }
 
 .card p{
   color: white;
   padding-inline: 15px;
-  margin-top: 15px;
+  margin-top: 6px;
+  font-family: Roboto, sans-serif;
 }
