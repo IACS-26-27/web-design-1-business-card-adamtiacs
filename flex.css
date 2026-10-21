@@ -14,12 +14,29 @@ h6 {
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
-/*
-.card * {
+
+.card {
   outline: 1px dashed red;
 }
-*/
 
+.entire_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: teal;
+  justify-content: space-between;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.header {
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 100;
+  color: rgba(214, 10, 10, 0.897);
+}
 /* Your flexbox card styles go here! */
 .card-front {
 }
