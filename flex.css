@@ -19,16 +19,15 @@ h6 {
   outline: 1px dashed red;
 }
 
-.entire_card {
+.contents_within_the_front_card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: teal;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 img {
-  width: 100px;
+  width: 140px;
   height: 100px;
 }
 
@@ -37,8 +36,16 @@ img {
   font-weight: 100;
   color: rgba(214, 10, 10, 0.897);
 }
+
+.subheader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
 /* Your flexbox card styles go here! */
 .card-front {
+  background-color: rgb(35, 180, 180);
 }
 
 /* Honors: styles for each card size, for example:
