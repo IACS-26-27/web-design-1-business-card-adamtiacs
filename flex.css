@@ -60,7 +60,16 @@ p {
   height: 100%
 }
 
-/* Honors: styles for each card size, for example:
+/* Honors: styles for each card size, for example: */
 .square .card-front {
+  
+}
+.square .header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.square .subheader {
+  font-size: 13px;
+  font-weight: 500;
 }
 
