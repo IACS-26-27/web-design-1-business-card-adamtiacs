@@ -62,7 +62,7 @@ p {
 
 /* Honors: styles for each card size, for example: */
 .square .card-front {
-  
+  color: teal;
 }
 .square .header {
   font-size: 12px;
@@ -72,4 +72,14 @@ p {
   font-size: 13px;
   font-weight: 500;
 }
+.square .contact_information {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+}
+.square img {
+  align-items: center;
+}
+
 
