@@ -43,8 +43,8 @@ img {
 
 .subheader {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: white;
+  font-weight: bold;
+  color: #19468D;
 }
 
 p {
