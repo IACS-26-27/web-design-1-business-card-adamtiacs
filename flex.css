@@ -118,3 +118,37 @@ p {
   left: -99px;
   font-family: 'Roboto', sans-serif;
 }
+
+/* AI-generated code starts here */
+/* Student prompt: "Add a speech bubble border shape on the front of the card where it looks good." */
+.speech-bubble {
+  width: 54px;
+  height: 32px;
+  position: absolute;
+  right: 14px;
+  top: 38px;
+  background-color: white;
+  border: 3px solid #19468D;
+  border-radius: 12px;
+}
+
+.speech-bubble::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  bottom: -22px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #19468D transparent transparent transparent;
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  left: 11px;
+  bottom: -15px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+/* AI-generated code ends here */
