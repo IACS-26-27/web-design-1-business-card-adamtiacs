@@ -59,6 +59,7 @@ p {
   background-color: rgb(35, 180, 180);
   height: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 /* Honors: styles for each card size, for example: */
