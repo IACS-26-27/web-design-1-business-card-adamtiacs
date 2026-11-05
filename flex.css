@@ -47,16 +47,16 @@ img {
   color: #19468D;
 }
 
-p {
+.card p {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: black;
+  font-weight: 500;
+  color: #333333;
   font-size: 12px;
 }
 
 /* Your flexbox card styles go here! */
 .card-front {
-  background-color: rgb(35, 180, 180);
+  background-color: #F4F6F9;
   height: 100%;
   position: relative;
   overflow: hidden;
