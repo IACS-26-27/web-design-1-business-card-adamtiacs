@@ -17,7 +17,7 @@ h6 {
 
 .card {
   outline: 1px dashed red;
-  background-color: teal;
+  background-color: #F4F6F9;
   border-bottom-style: solid;
   border-top-style: solid;
 }
@@ -28,7 +28,7 @@ h6 {
  * (no flexbox or grid). */
 .card h1 {
   /* Demo style -- remove me and write your own */
-  color: rgba(214, 10, 10, 0.897);
+  color: #D60A0A;
   padding: 6px;
   font-size: 25px;
   border-left-style: solid;
@@ -41,7 +41,7 @@ h6 {
 }
 .card h2 {
   margin-left: 10px;
-  color: white;
+  color: #19468D;
   font-size: 15px;
   border-bottom-style: solid;
   border-bottom-color: black;
@@ -61,4 +61,17 @@ img {
   width: 200px;
   height: 200px;
   padding-left: 55px;
+}
+.contact-information {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.contact-information p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+  color: #333333;
 }
