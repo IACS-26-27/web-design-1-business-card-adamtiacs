@@ -62,6 +62,15 @@ img {
   overflow: hidden;
 }
 
+.contact_information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+}
+
 /* Honors: styles for each card size, for example: */
 .square .card-front {
   color: teal;
