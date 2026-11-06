@@ -110,7 +110,7 @@ img {
 }
 
 .banner {
-  background: red;
+  background: rgba(214, 10, 10, 0.897);
   color: white;
   width: 200px;
   height: 26px;
